@@ -1,0 +1,41 @@
+# COMSOL and generated binaries
+*.mph
+*.mphbin
+*.class
+*.jar
+*.dll
+*.exe
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Generated solver and analysis outputs
+output/
+figures/
+*.log
+*_stdout.txt
+*_stderr.txt
+*_stdout.log
+*_stderr.log
+*_batch.log
+*_global_comsol_prefs_backup.txt
+
+# Local indexes and app state
+.codegraph/
+.understand-anything/
+.codex/
+
+# Large tabular dumps
+*probe_table.csv
+*probe_modes.csv
+*eigenfrequencies.csv
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
